@@ -1,0 +1,126 @@
+/* Navigation Bar Styles - From line 1-20 */
+.nav {
+  background-color: #333; /* Background color for the navbar */
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-between; /* Spread menu items horizontally */
+  padding: 19px;
+  margin:1px;
+}
+
+.nav a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underlines from links */
+  padding: 2px 20px; /* Padding for each link */
+}
+
+/* Change the link color on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* styles.css - Styling the about section */
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #F2F1F7;
+    color: #000000;
+}
+
+.about img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.about {
+    margin: 10px;
+}
+
+h1, h2, h3 {
+    color: #231DD7;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.lang {
+    text-align: center;
+    padding: 20px;
+    background-color: #F2F1F7;
+    color: #000000;
+}
+
+.serv {
+    text-align: center;
+    padding: 10px;
+    background-color: #F2F1F7;
+    color: #000000;
+}
+
+.serv{
+    margin:10px;
+}
+
+/*Styling my form*/
+
+/* styles.css */
+body {
+    /*font-family: Arial, sans-serif;*/
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    /*color: #F04C19;*/
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #090301;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #090301;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
